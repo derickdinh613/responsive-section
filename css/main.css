@@ -10,8 +10,32 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font: normal 100%/1.3 "Noto Sans", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  padding: 1.3rem;
+  margin: 0 auto;
+  max-width: 45em;
+}
+
+section {
+  background-color: #e5c30a;
+}
+
+section .wrapper {
+  overflow: hidden;
+}
+
+.section-letter {
+  width: 50%;
+  float: left;
 }
